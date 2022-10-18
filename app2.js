@@ -4,9 +4,12 @@ console.log('REPL');
 console.log("dirname : "+__dirname);
 console.log("filename : "+__filename);
 
+console.log(process);
 console.log(process.pid);
 console.log(process.argv);
-console.log(process.argv[1]);
+
+console.log("process argv[1] " + process.argv[1]);
+
 
 let first=process.argv[2];
 let second=process.argv[3];
