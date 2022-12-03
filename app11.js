@@ -46,4 +46,43 @@ for(let i=0;i<5;i++){
 
 myArr.shift();
 
-console.log(myArr);
+// console.log(myArr);
+// console.log(1);
+
+// setTimeout(()=>{
+//     console.log(2);
+// },0);
+// console.log(3);
+
+
+console.log('00000000000');
+
+// console.log(1);
+// setImmediate(()=>{
+//     console.log(2);
+// });
+
+// setTimeout(()=>{
+//     console.log(3);
+// },0);
+
+// console.log(4);
+
+
+// setImmediate(()=>{
+//     console.log(1);
+// })
+
+// process.nextTick(()=>{
+//     console.log(2);
+// })
+
+// console.log(3);
+
+// try{
+//     console.log(val);
+// }
+//  catch(err){
+//     console.log('ERROR');
+//  }
+
